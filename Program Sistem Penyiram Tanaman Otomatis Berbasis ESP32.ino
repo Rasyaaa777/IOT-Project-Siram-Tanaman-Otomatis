@@ -7,9 +7,9 @@
 // 4. Kontrol Blynk: V1 (Mode), V2 (Manual Pompa), V3 (ADC), V7 (Persen), V8 (LED Indikator)
 // 5. Jadwal Otomatis Internet: 07:00 Pagi & 17:00 Sore
 
-#define BLYNK_TEMPLATE_ID           "TMPLn-jQSvce"
-#define BLYNK_DEVICE_NAME           "Monitoring Penyiraman Tanaman Otomatis"
-#define BLYNK_AUTH_TOKEN            "X1Qx3KVjE4Y3d2ggFk8rfmvElvejLluN"
+#define BLYNK_TEMPLATE_ID "TMPL6BgWagWjB"
+#define BLYNK_TEMPLATE_NAME "Quickstart Template"
+#define BLYNK_AUTH_TOKEN "7yYsPh7ayIHAAdw6PCBOwXwMRQyvv711"
 
 #define BLYNK_PRINT Serial
 
@@ -30,8 +30,8 @@ Adafruit_SSD1306 oled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // ================= KREDENSIAL WIFI =================
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Redmi Note 9 Pro";
-char pass[] = "28100203";
+char ssid[] = "punya saya";
+char pass[] = "12345678";
 
 // ================= KONFIGURASI WAKTU NTP (WIB = GMT+7) =================
 const char* ntpServer = "pool.ntp.org";
